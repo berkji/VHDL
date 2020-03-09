@@ -22,8 +22,6 @@ begin
       state <= STATE_0;
     elsif (clk'event and clk='1') then
       state <= nextstate;
-    else 
-      state <= state;
     end if;
   end process;
 
@@ -97,7 +95,8 @@ begin
         done <= '1';
         nextstate <= STATE_0;
 
-      when others => null;
+      when others => 
+        nextstate <= state;
     end case;
   end process;
 end STR;

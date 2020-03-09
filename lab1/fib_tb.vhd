@@ -13,7 +13,7 @@ architecture BHF of fib_tb is
   signal done      : std_logic;
   signal result    : std_logic_vector(7 downto 0);
 begin
-  U1_fib: entity work.fib_toplevel
+  U1_fib: entity work.fib_toplevel2_1fsm
     port map (
       go => go,
       n  => "00000100",
