@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER my_multi_arty
+	OPTION supported_peripherals = (my_multi_arty);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = my_multi_arty;
+END DRIVER
