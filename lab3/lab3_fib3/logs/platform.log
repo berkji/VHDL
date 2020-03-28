@@ -1,0 +1,1365 @@
+TRACE::2020-03-28.20:29:45::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:45::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:45::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:45::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:45::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:45::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened new HwDB with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-03-28.20:29:46::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3"
+		}]
+}
+TRACE::2020-03-28.20:29:46::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-03-28.20:29:46::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-03-28.20:29:46::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3"
+		}]
+}
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-03-28.20:29:46::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::mss does not exists at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::Creating sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::Adding the swdes entry, created swdb D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::updating the scw layer changes to swdes at   D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::Writing mss at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:29:46::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-03-28.20:29:46::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-03-28.20:29:46::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-03-28.20:29:46::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-03-28.20:29:46::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:46::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-03-28.20:29:46::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:46::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:29:46::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-03-28.20:29:59::SCWPlatform::Started generating the artifacts platform lab3_fib3
+TRACE::2020-03-28.20:29:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-03-28.20:29:59::SCWPlatform::Started generating the artifacts for system configuration lab3_fib3
+LOG::2020-03-28.20:29:59::SCWSystem::Checking the domain standalone_domain
+LOG::2020-03-28.20:29:59::SCWSystem::Not a boot domain 
+LOG::2020-03-28.20:29:59::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-03-28.20:29:59::SCWDomain::Generating domain artifcats
+TRACE::2020-03-28.20:29:59::SCWMssOS::Generating standalone artifcats
+TRACE::2020-03-28.20:29:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2020-03-28.20:29:59::SCWMssOS::Could not open the swdb for D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-03-28.20:29:59::SCWMssOS::Could not open the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-03-28.20:29:59::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::mss exists loading the mss file  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::Opened the sw design from mss  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::Adding the swdes entry D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-28.20:29:59::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-28.20:29:59::SCWMssOS::Opened the sw design.  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:29:59::SCWMssOS::Mss edits present, copying mssfile into export location D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-03-28.20:29:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-03-28.20:29:59::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-03-28.20:29:59::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-03-28.20:29:59::SCWMssOS::Copying to export directory.
+TRACE::2020-03-28.20:29:59::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-03-28.20:29:59::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-03-28.20:29:59::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-03-28.20:29:59::SCWSystem::Completed Processing the sysconfig lab3_fib3
+LOG::2020-03-28.20:29:59::SCWPlatform::Completed generating the artifacts for system configuration lab3_fib3
+TRACE::2020-03-28.20:29:59::SCWPlatform::Started preparing the platform 
+TRACE::2020-03-28.20:29:59::SCWSystem::Writing the bif file for system config lab3_fib3
+TRACE::2020-03-28.20:29:59::SCWSystem::dir created 
+TRACE::2020-03-28.20:29:59::SCWSystem::Writing the bif 
+TRACE::2020-03-28.20:29:59::SCWPlatform::Started writing the spfm file 
+TRACE::2020-03-28.20:29:59::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-03-28.20:29:59::SCWPlatform::Completed generating the platform
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-03-28.20:29:59::SCWPlatform::updated the xpfm file.
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:29:59::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:29:59::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:29:59::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:29:59::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:30:00::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:30:00::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-28.20:30:00::SCWPlatform::Clearing the existing platform
+TRACE::2020-03-28.20:30:00::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-03-28.20:30:00::SCWMssOS::Removing the swdes entry for  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWSystem::Clearing the domains completed.
+TRACE::2020-03-28.20:30:00::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform location is D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Removing the HwDB with name D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened new HwDB with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWReader::Active system found as  lab3_fib3
+TRACE::2020-03-28.20:30:00::SCWReader::Handling sysconfig lab3_fib3
+TRACE::2020-03-28.20:30:00::SCWDomain::checking for install qemu data   : 
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-03-28.20:30:00::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::mss exists loading the mss file  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::Opened the sw design from mss  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::Adding the swdes entry D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-28.20:30:00::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-28.20:30:00::SCWMssOS::Opened the sw design.  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-03-28.20:30:00::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:00::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:00::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:30:00::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:00::SCWReader::No isolation master present  
+TRACE::2020-03-28.20:30:04::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:04::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:04::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:04::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:04::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:04::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:04::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:04::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:04::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:30:04::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::In reload Mss file.
+TRACE::2020-03-28.20:30:06::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:06::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:06::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:06::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+KEYINFO::2020-03-28.20:30:06::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-03-28.20:30:06::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-03-28.20:30:06::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-03-28.20:30:06::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::mss exists loading the mss file  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::Opened the sw design from mss  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::Adding the swdes entry D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-28.20:30:06::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-28.20:30:06::SCWMssOS::Opened the sw design.  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:06::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:06::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:06::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:06::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:30:06::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:06::SCWMssOS::Removing the swdes entry for  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2020-03-28.20:30:48::SCWPlatform::Started generating the artifacts platform lab3_fib3
+TRACE::2020-03-28.20:30:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-03-28.20:30:48::SCWPlatform::Started generating the artifacts for system configuration lab3_fib3
+LOG::2020-03-28.20:30:48::SCWSystem::Checking the domain standalone_domain
+LOG::2020-03-28.20:30:48::SCWSystem::Not a boot domain 
+LOG::2020-03-28.20:30:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-03-28.20:30:48::SCWDomain::Generating domain artifcats
+TRACE::2020-03-28.20:30:48::SCWMssOS::Generating standalone artifcats
+TRACE::2020-03-28.20:30:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-03-28.20:30:48::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:48::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:48::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:48::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:30:48::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:30:48::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-03-28.20:30:48::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::mss exists loading the mss file  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::Opened the sw design from mss  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::Adding the swdes entry D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-03-28.20:30:48::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-28.20:30:48::SCWMssOS::Opened the sw design.  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:30:48::SCWMssOS::Mss edits present, copying mssfile into export location D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:30:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-03-28.20:30:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-03-28.20:30:48::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-03-28.20:30:48::SCWMssOS::doing bsp build ... 
+TRACE::2020-03-28.20:30:48::SCWMssOS::System Command Ran  D: & cd  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-03-28.20:30:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-03-28.20:30:49::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-03-28.20:30:49::SCWMssOS::-Wextra"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-03-28.20:30:49::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-03-28.20:30:49::SCWMssOS::-Wextra"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_fib1_v1_0/src"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::make -C microblaze_0/libsrc/myip_fib1_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2020-03-28.20:30:49::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2020-03-28.20:30:49::SCWMssOS::Wall -Wextra"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-03-28.20:30:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-03-28.20:30:49::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2020-03-28.20:30:49::SCWMssOS::-Wall -Wextra"
+
+TRACE::2020-03-28.20:30:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-03-28.20:30:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-03-28.20:30:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-03-28.20:30:50::SCWMssOS::all -Wextra"
+
+TRACE::2020-03-28.20:30:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-03-28.20:30:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-03-28.20:30:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-03-28.20:30:50::SCWMssOS::xtra"
+
+TRACE::2020-03-28.20:30:50::SCWMssOS::"Compiling bram"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-03-28.20:30:53::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-03-28.20:30:53::SCWMssOS::xtra"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myip_fib1_v1_0/src"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::make -C microblaze_0/libsrc/myip_fib1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-03-28.20:30:53::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2020-03-28.20:30:53::SCWMssOS::l -Wextra"
+
+TRACE::2020-03-28.20:30:53::SCWMssOS::"Compiling myip_fib1..."
+
+TRACE::2020-03-28.20:30:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-03-28.20:30:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-03-28.20:30:54::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2020-03-28.20:30:54::SCWMssOS::ll -Wextra"
+
+TRACE::2020-03-28.20:30:54::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-03-28.20:31:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-03-28.20:31:02::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-03-28.20:31:02::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-03-28.20:31:02::SCWMssOS:: -Wextra"
+
+TRACE::2020-03-28.20:31:02::SCWMssOS::"Compiling uartlite"
+
+ERROR::2020-03-28.20:31:03::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2020-03-28.20:31:03::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2020-03-28.20:31:35::SCWPlatform::Started generating the artifacts platform lab3_fib3
+TRACE::2020-03-28.20:31:35::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-03-28.20:31:35::SCWPlatform::Started generating the artifacts for system configuration lab3_fib3
+LOG::2020-03-28.20:31:35::SCWSystem::Checking the domain standalone_domain
+LOG::2020-03-28.20:31:35::SCWSystem::Not a boot domain 
+LOG::2020-03-28.20:31:35::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-03-28.20:31:35::SCWDomain::Generating domain artifcats
+TRACE::2020-03-28.20:31:35::SCWMssOS::Generating standalone artifcats
+TRACE::2020-03-28.20:31:35::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-03-28.20:31:35::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:35::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:35::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:35::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:31:35::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:31:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:31:35::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:31:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:31:35::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:35::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:35::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:31:35::SCWMssOS::Mss edits present, copying mssfile into export location D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:35::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-03-28.20:31:35::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-03-28.20:31:35::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-03-28.20:31:35::SCWMssOS::doing bsp build ... 
+TRACE::2020-03-28.20:31:35::SCWMssOS::System Command Ran  D: & cd  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-03-28.20:31:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-03-28.20:31:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-03-28.20:31:35::SCWMssOS::-Wextra"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-03-28.20:31:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-03-28.20:31:35::SCWMssOS::-Wextra"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_fib1_v1_0/src"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::make -C microblaze_0/libsrc/myip_fib1_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2020-03-28.20:31:35::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2020-03-28.20:31:35::SCWMssOS::Wall -Wextra"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-03-28.20:31:35::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-03-28.20:31:35::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2020-03-28.20:31:35::SCWMssOS::-Wall -Wextra"
+
+TRACE::2020-03-28.20:31:36::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-03-28.20:31:36::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-03-28.20:31:36::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-03-28.20:31:36::SCWMssOS::all -Wextra"
+
+TRACE::2020-03-28.20:31:36::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-03-28.20:31:36::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-03-28.20:31:36::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-03-28.20:31:36::SCWMssOS::xtra"
+
+TRACE::2020-03-28.20:31:36::SCWMssOS::"Compiling bram"
+
+TRACE::2020-03-28.20:31:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-03-28.20:31:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-03-28.20:31:49::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-03-28.20:31:49::SCWMssOS::xtra"
+
+TRACE::2020-03-28.20:31:49::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myip_fib1_v1_0/src"
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::make -C microblaze_0/libsrc/myip_fib1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-03-28.20:31:50::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2020-03-28.20:31:50::SCWMssOS::l -Wextra"
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::"Compiling myip_fib1..."
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-03-28.20:31:50::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2020-03-28.20:31:50::SCWMssOS::ll -Wextra"
+
+TRACE::2020-03-28.20:31:50::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-03-28.20:31:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-03-28.20:31:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-03-28.20:31:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-03-28.20:31:54::SCWMssOS:: -Wextra"
+
+TRACE::2020-03-28.20:31:54::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-03-28.20:31:55::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-03-28.20:31:55::SCWMssOS::Copying to export directory.
+TRACE::2020-03-28.20:31:55::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-03-28.20:31:55::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-03-28.20:31:55::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-03-28.20:31:55::SCWSystem::Completed Processing the sysconfig lab3_fib3
+LOG::2020-03-28.20:31:55::SCWPlatform::Completed generating the artifacts for system configuration lab3_fib3
+TRACE::2020-03-28.20:31:55::SCWPlatform::Started preparing the platform 
+TRACE::2020-03-28.20:31:55::SCWSystem::Writing the bif file for system config lab3_fib3
+TRACE::2020-03-28.20:31:55::SCWSystem::dir created 
+TRACE::2020-03-28.20:31:55::SCWSystem::Writing the bif 
+TRACE::2020-03-28.20:31:55::SCWPlatform::Started writing the spfm file 
+TRACE::2020-03-28.20:31:55::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-03-28.20:31:55::SCWPlatform::Completed generating the platform
+TRACE::2020-03-28.20:31:55::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:55::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:55::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:55::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:31:56::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:56::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:31:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:31:56::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:31:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:31:56::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:56::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:31:56::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:56::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-03-28.20:31:56::SCWPlatform::updated the xpfm file.
+TRACE::2020-03-28.20:31:56::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:56::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:56::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:56::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:31:56::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:31:56::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:31:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:31:56::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:31:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:31:56::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:31:56::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib2/microblaze_0/standalone_domain/bsp/system.mss|system||
+D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:31:56::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:40:41::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:40:41::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:40:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:40:41::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:40:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:40:41::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:40:41::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:40:41::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:40:41::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-03-28.20:40:41::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:40:41::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:40:41::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:40:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:40:41::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:40:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:40:41::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:40:41::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2020-03-28.20:40:41::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:40:41::SCWMssOS::Removing the swdes entry for  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2020-03-28.20:42:11::SCWPlatform::Started generating the artifacts platform lab3_fib3
+TRACE::2020-03-28.20:42:11::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-03-28.20:42:11::SCWPlatform::Started generating the artifacts for system configuration lab3_fib3
+LOG::2020-03-28.20:42:11::SCWSystem::Checking the domain standalone_domain
+LOG::2020-03-28.20:42:11::SCWSystem::Not a boot domain 
+LOG::2020-03-28.20:42:11::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-03-28.20:42:11::SCWDomain::Generating domain artifcats
+TRACE::2020-03-28.20:42:11::SCWMssOS::Generating standalone artifcats
+TRACE::2020-03-28.20:42:11::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:42:11::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-03-28.20:42:11::SCWMssOS::No sw design opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::mss exists loading the mss file  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::Opened the sw design from mss  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::Adding the swdes entry D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-03-28.20:42:11::SCWMssOS::updating the scw layer about changes
+TRACE::2020-03-28.20:42:11::SCWMssOS::Opened the sw design.  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::Completed writing the mss file at D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp
+TRACE::2020-03-28.20:42:11::SCWMssOS::Mss edits present, copying mssfile into export location D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-03-28.20:42:11::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-03-28.20:42:11::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-03-28.20:42:11::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-03-28.20:42:11::SCWMssOS::Copying to export directory.
+TRACE::2020-03-28.20:42:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-03-28.20:42:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-03-28.20:42:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-03-28.20:42:11::SCWSystem::Completed Processing the sysconfig lab3_fib3
+LOG::2020-03-28.20:42:11::SCWPlatform::Completed generating the artifacts for system configuration lab3_fib3
+TRACE::2020-03-28.20:42:11::SCWPlatform::Started preparing the platform 
+TRACE::2020-03-28.20:42:11::SCWSystem::Writing the bif file for system config lab3_fib3
+TRACE::2020-03-28.20:42:11::SCWSystem::dir created 
+TRACE::2020-03-28.20:42:11::SCWSystem::Writing the bif 
+TRACE::2020-03-28.20:42:11::SCWPlatform::Started writing the spfm file 
+TRACE::2020-03-28.20:42:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-03-28.20:42:11::SCWPlatform::Completed generating the platform
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:42:11::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-03-28.20:42:11::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWWriter::formatted JSON is {
+	"platformName":	"lab3_fib3",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lab3_fib3",
+	"platHandOff":	"D:/work/VHDL/xilinx_ex/project_lab3_2/lab3_fib3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lab3_fib3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lab3_fib3",
+	"systems":	[{
+			"systemName":	"lab3_fib3",
+			"systemDesc":	"lab3_fib3",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lab3_fib3",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d860a7f82d62b0311203ea74535faa06",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-03-28.20:42:11::SCWPlatform::updated the xpfm file.
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to open the hw design at D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA given D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA absoulate path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform::DSA directory D:/work/VHDL/lab3_fib3/hw
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Platform Path D:/work/VHDL/lab3_fib3/hw/lab3_fib3.xsa
+TRACE::2020-03-28.20:42:11::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2020-03-28.20:42:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2020-03-28.20:42:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-03-28.20:42:11::SCWMssOS::Checking the sw design at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-03-28.20:42:11::SCWMssOS::DEBUG:  swdes dump  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-03-28.20:42:11::SCWMssOS::Sw design exists and opened at  D:/work/VHDL/lab3_fib3/microblaze_0/standalone_domain/bsp/system.mss
