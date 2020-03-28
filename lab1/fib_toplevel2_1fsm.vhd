@@ -8,7 +8,7 @@ entity fib_toplevel2_1fsm is
     n    :   in std_logic_vector(7 downto 0);
     clk, rst   : in std_logic;
     done :   out std_logic;
-    result : out std_logic_vector(7 downto 0));
+    result : out std_logic_vector(31 downto 0));
 end fib_toplevel2_1fsm;
 
 architecture STR of fib_toplevel2_1fsm is
@@ -21,12 +21,14 @@ begin
   done <= '1' when s_done = '1' else '0';
   
   process(clk, rst,n)
-    variable a,b,c : integer range 0 to 255 :=0;
+    variable a,b,c : integer range 0 to INTEGER'high :=0;
     variable index, v_n : integer range 0 to 255 :=0; 
   begin
     v_n := to_integer(unsigned(n));
+
     if (rst = '1') then
       state <= STATE_0;
+      s_done <= '0';
     elsif (clk'event and clk='1') then
       case state is
         when STATE_0 =>
@@ -41,6 +43,7 @@ begin
           b:= 1;
           index:= 1;
           c:= 0;
+          result <= std_logic_vector(to_unsigned(c,32));
           if (go = '1') then
             state <= STATE_SUM_DATA;
           else
@@ -68,8 +71,12 @@ begin
           end if;
         when STATE_DONE =>
           s_done <= '1';
-          result <= std_logic_vector(to_unsigned(c,8));
-          state <= STATE_0;
+          result <= std_logic_vector(to_unsigned(c,32));
+          if (go ='1') then
+            state <= STATE_DONE;
+          else 
+            state <= STATE_0;
+          end if;
         when others => 
           null;
       end case;

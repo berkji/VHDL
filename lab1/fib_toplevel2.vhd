@@ -43,6 +43,7 @@ begin
 --    s_done <='0';
     case state is
       when STATE_0 =>
+
         if (go = '1') then
           nextstate <= STATE_INIT_DATA;
         else
