@@ -1,0 +1,30 @@
+2020-05-30T16:13:04.307557600255-16:13:04 **** Clean-only build of project lab5_1aa ****
+000-buildplatform.bat 1279 lab5_1aa clean 
+000-XSDB Server Channel: tcfchan#2
+000-Cleaning the BSP for domain  - standalone_domain
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s clean 
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s clean 
+000-
+000-make -C microblaze_0/libsrc/myip_v1_0/src -s clean 
+000-
+000-rm: lstat¡®*.o¡¯Ê§°Ü: Invalid argument
+000/lab5_1aa0-1-1make[1]: *** [Makefile:26: clean] Error 12-make[1]: *** [Makefile:26: clean] Error 1
+000/lab5_1aa0-1-1make: *** [Makefile:33: microblaze_0/libsrc/myip_v1_0/src/make.clean] Error 22-make: *** [Makefile:33: microblaze_0/libsrc/myip_v1_0/src/make.clean] Error 2
+000-Failed to do platform clean.
+000-    invoked from within
+000-"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active lab5_1aa; platform clean}}}"
+000-    (procedure "::tcf::send_command" line 4)
+000-    invoked from within
+000-"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform clean"]"
+000-    invoked from within
+000-"if { $iswindows == 1 } {    
+000-
+000-    set XSDB_PORT [lindex $argv 0]
+000-    set PLATFORM_NAME [lindex $argv 1]
+000-    set arglen [llength $argv]
+000-    set lastind..."
+000-    (file "D:/Xilinx/Vitis/2019.2\scripts\vitis\util\buildplatform.tcl" line 11)
+00255-
+16:13:08 Build Finished (took 4s.527ms)
+
