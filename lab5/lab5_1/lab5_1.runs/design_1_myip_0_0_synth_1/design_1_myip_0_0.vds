@@ -1,0 +1,452 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May 22 22:45:56 2020
+# Process ID: 21192
+# Current directory: D:/work/VHDL/lab5/lab5_1/lab5_1.runs/design_1_myip_0_0_synth_1
+# Command line: vivado.exe -log design_1_myip_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_myip_0_0.tcl
+# Log file: D:/work/VHDL/lab5/lab5_1/lab5_1.runs/design_1_myip_0_0_synth_1/design_1_myip_0_0.vds
+# Journal file: D:/work/VHDL/lab5/lab5_1/lab5_1.runs/design_1_myip_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_myip_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work/VHDL/lab5/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work/VHDL/xilinx_ex/ip_repo/myip_pipe2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work/VHDL/xilinx_ex/ip_repo/myip_pipe_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top design_1_myip_0_0 -part xc7a35ticsg324-1L -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6280 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 980.359 ; gain = 241.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_myip_0_0' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/synth/design_1_myip_0_0.vhd:86]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'myip_v1_0' declared at 'd:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0.vhd:5' bound to instance 'U0' of component 'myip_v1_0' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/synth/design_1_myip_0_0.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'myip_v1_0' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0.vhd:52]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'myip_v1_0_S00_AXI' declared at 'd:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:5' bound to instance 'myip_v1_0_S00_AXI_inst' of component 'myip_v1_0_S00_AXI' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'myip_v1_0_S00_AXI' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:89]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:43]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:71]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:119]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:128]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:129]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:133]
+INFO: [Synth 8-226] default block is never used [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:253]
+INFO: [Synth 8-226] default block is never used [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:383]
+INFO: [Synth 8-638] synthesizing module 'wrapper' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/wrapper.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'user_app' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:25]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:29]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:29]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:31]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'memory_map' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/memory_map.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'memory_map' (1#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/memory_map.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'source' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/source.vhd:19]
+	Parameter clk_in_freq bound to: 2 - type: integer 
+	Parameter clk_out_freq bound to: 1 - type: integer 
+	Parameter iterations_width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'source' (2#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/source.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'delay' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/delay.vhd:41]
+	Parameter cycles bound to: 10 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init bound to: 1'b0 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/delay.vhd:35]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/delay.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'delay' (3#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/delay.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'dest' [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/dest.vhd:15]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/dest.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'dest' (4#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/dest.vhd:15]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_SOURCE'. This will prevent further optimization [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:68]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_DEST'. This will prevent further optimization [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:100]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_MMAP'. This will prevent further optimization [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'user_app' (5#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/user_app.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (6#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/src/wrapper.vhd:25]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_WRAPPER'. This will prevent further optimization [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:425]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:246]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:247]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:248]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:249]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:251]
+WARNING: [Synth 8-6014] Unused sequential element axi_araddr_reg was removed.  [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:332]
+INFO: [Synth 8-256] done synthesizing module 'myip_v1_0_S00_AXI' (7#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'myip_v1_0' (8#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ipshared/60c7/hdl/myip_v1_0.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_myip_0_0' (9#1) [d:/work/VHDL/lab5/lab5_1/lab5_1.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/synth/design_1_myip_0_0.vhd:86]
+WARNING: [Synth 8-3331] design user_app has unconnected port clks[3]
+WARNING: [Synth 8-3331] design user_app has unconnected port clks[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1058.297 ; gain = 319.328
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1058.297 ; gain = 319.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1058.297 ; gain = 319.328
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1058.297 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 1140.016 ; gain = 1.984
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'source'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_init |                              000 |                              000
+            s_check_done |                              001 |                              001
+                  s_done |                              010 |                              100
+                   s_set |                              011 |                              010
+                 s_clear |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'source'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 30    
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   5 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module memory_map 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module source 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+Module delay 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 10    
+Module dest 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module myip_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design wrapper has unconnected port clks[3]
+WARNING: [Synth 8-3331] design wrapper has unconnected port clks[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[0]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'U0/myip_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/myip_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/myip_v1_0_S00_AXI_inst /\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/myip_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/myip_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/myip_v1_0_S00_AXI_inst /\axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1140.016 ; gain = 401.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1147.160 ; gain = 408.191
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    19|
+|2     |LUT1   |     2|
+|3     |LUT2   |    36|
+|4     |LUT3   |     3|
+|5     |LUT4   |     7|
+|6     |LUT5   |     7|
+|7     |LUT6   |    46|
+|8     |FDCE   |   186|
+|9     |FDRE   |    44|
+|10    |FDSE   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+------------------+------+
+|      |Instance                   |Module            |Cells |
++------+---------------------------+------------------+------+
+|1     |top                        |                  |   351|
+|2     |  U0                       |myip_v1_0         |   351|
+|3     |    myip_v1_0_S00_AXI_inst |myip_v1_0_S00_AXI |   351|
+|4     |      U_WRAPPER            |wrapper           |   300|
+|5     |        U_USER_APP         |user_app          |   300|
+|6     |          U_MMAP           |memory_map        |   100|
+|7     |          U_SOURCE         |source            |   136|
+|8     |          U_DELAY          |delay__1          |    10|
+|9     |          U_DEST           |dest              |    43|
+|10    |          U_SYNC           |delay             |    10|
++------+---------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1153.945 ; gain = 333.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1153.945 ; gain = 414.977
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1153.945 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1168.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:52 . Memory (MB): peak = 1168.840 ; gain = 697.801
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1168.840 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/work/VHDL/lab5/lab5_1/lab5_1.runs/design_1_myip_0_0_synth_1/design_1_myip_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_myip_0_0, cache-ID = 3f84978f4691ee49
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1168.840 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/work/VHDL/lab5/lab5_1/lab5_1.runs/design_1_myip_0_0_synth_1/design_1_myip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_myip_0_0_utilization_synth.rpt -pb design_1_myip_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 22 22:46:56 2020...
